@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "open-bootcamp": "echo \"Hola, este es mi primer ejercicio con Node en el mejor Bootcamp de programación del mundo\""
   },
   "repository": {
     "type": "git",
