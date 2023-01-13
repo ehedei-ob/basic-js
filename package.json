@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ehedei-ob/basic-js/issues"
   },
-  "homepage": "https://github.com/ehedei-ob/basic-js#readme"
+  "homepage": "https://github.com/ehedei-ob/basic-js#readme",
+  "dependencies": {
+    "winston": "^3.8.2"
+  }
 }
