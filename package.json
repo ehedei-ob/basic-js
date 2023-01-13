@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
@@ -17,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ehedei-ob/basic-js/issues"
   },
-  "homepage": "https://github.com/ehedei-ob/basic-js#readme"
+  "homepage": "https://github.com/ehedei-ob/basic-js#readme",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
 }
