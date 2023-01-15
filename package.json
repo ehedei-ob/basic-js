@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "lint": "eslint .",
+    "lint-fix": "eslint --fix ."
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/ehedei-ob/basic-js/issues"
   },
-  "homepage": "https://github.com/ehedei-ob/basic-js#readme"
+  "homepage": "https://github.com/ehedei-ob/basic-js#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.4"
+  }
 }
