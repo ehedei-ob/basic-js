@@ -1,0 +1,26 @@
+.seccion {
+  background-color: darkslategrey;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.parrafo {
+  background-color: white;
+  padding: 1rem;
+}
+
+.parrafo.dragging {
+  opacity: 0.3;
+}
+
+.imagen-fantasma {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  background-image: url(https://h5p.org/sites/default/files/styles/medium-logo/public/logos/drag-and-drop-icon.png?itok=0dFV3ej6);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  background-size: 90px auto;
+  left: -100vw;
+}
